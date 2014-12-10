@@ -15,19 +15,23 @@
 </head>
 
 <body>
-  
-  <i class="massive cloud icon"></i>
-
-<div id="weather"></div>
+<div class="ui page grid center aligned">
+  <div class="column four wide right aligned">  
+    <i class="massive cloud icon"></i>
+  </div>
+  <div class="column four wide left aligned" id="weather"> 
+    <div>
+    <h2 class="temp"> </h2>
+    <p class="city"> </p>
+    </div>
+  </div>
+</div>
 
     <input type="text" id="getWeather"/>
-    <button>Get Weather</button>
+    <div class="ui button black">Get Weather</div>
 
 <!-- Output Weather --> 
-<ul>
-  <li class="temp"> </li>
-  <li class="city"> </li>
-</ul>
+
   
   <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/semantic.js"></script>

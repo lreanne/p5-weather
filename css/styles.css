@@ -4,6 +4,7 @@ input, li{
 
 body {
   text-align: center;
+  color: white;
   background: url("../img/bg.png") center center no-repeat fixed #292929;
 
 -webkit-background-size: cover;
@@ -11,6 +12,19 @@ body {
 -o-background-size: cover;
 background-size: cover;
 
+}
+
+h2 {
+  font-size: 4em;
+}
+
+p {
+  font-size: 2em;
+  margin-top: -1em;
+}
+
+div#weather {
+  margin-bottom: 5em;
 }
 
 i {
