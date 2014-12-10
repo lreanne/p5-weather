@@ -1,0 +1,27 @@
+input, li{
+  color: black;
+}
+
+body {
+  text-align: center;
+  background: url("../img/bg.png") center center no-repeat fixed #292929;
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+
+i {
+  color: white;
+}
+
+button {
+  text-decoration: none;
+}
+
+.simpleWeather {
+  color:white;
+
+}
